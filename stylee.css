@@ -293,8 +293,59 @@ footer .questions {
     color: rgba(255, 255, 255, 0.7);
     margin-top: 25px;
 }
+@media screen and (max-width : 335px){
+    nav img {
+        color: red;
+        width: 110px;
+        position: relative;
+        z-index: 10;
+        left: -10px;
+    }
+}
+@media screen and (max-width : 380px) {
+.nav {
+    max-width: 50vw;
+}    
+.btn {
+    padding: 5px 13px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 6px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 11px;
+    margin: 2px 14px;
+    top: -4px;
+    right: -14px;
+    border-width: 3px;
+}
+ .btn-red-sm {
+    background-color: red;
+    color: white;
+    padding: 3px 4px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 1px solid red;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0px 5px;
+    top: -4px;
+    right: 0px;
+    border-width: 3px;
+}
 
-@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 740px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        color: white;
+        align-items: center;
+       
+    }
+}
+@media screen  and (max-width: 1200px) {
 
     nav {
         max-width: 90vw;
@@ -348,3 +399,5 @@ footer .questions {
 
 
 }
+
+
