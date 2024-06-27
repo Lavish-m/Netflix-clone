@@ -300,7 +300,10 @@ footer .questions {
         position: relative;
         z-index: 10;
         left: -10px;
+    
+    
     }
+    
 }
 @media screen and (max-width : 380px) {
 .nav {
@@ -312,13 +315,14 @@ footer .questions {
     color: white;
     background-color: rgba(248, 243, 243, 0.021);
     border-radius: 6px;
-    border: 1px solid white;
+    border: 1px solid red;
     cursor: pointer;
     font-size: 11px;
     margin: 2px 14px;
     top: -4px;
     right: -14px;
     border-width: 3px;
+    background-color: red;
 }
  .btn-red-sm {
     background-color: red;
